@@ -27,12 +27,12 @@ H2, h3 {  padding-bottom: 30px;
 h2 {
   border-bottom: 5px solid pink;
 }
-body {
-
+.section{
+  width: 100%;
+ display: flex;
+ flex-direction: row;
 }
-p{ 
 
-}
 H1,H2,H3,H4,p{ 
  text-align:center
   
@@ -55,13 +55,12 @@ body{
   border: 5px solid yellow;
   width: 50%;
    margin: 20%;
-   ailgn-text: center;
+ text-align: center;
 }
 
  .parent div,.boxOne,.boxTwo,.boxThree {
    height:30vh;
-    border: 4px solid pink
-   
+    border: 4px solid pink  
    
 }
 .parent,.boxOne,.boxTwo,.boxThree{
@@ -69,10 +68,6 @@ body{
   text-decoration-line: underline;
  
 }
-.parent1{
-  display: flex;
-  flex-direction:row;
-  margin: 0%
-}
+
    
 /* header section styles */
