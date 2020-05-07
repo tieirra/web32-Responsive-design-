@@ -76,5 +76,13 @@ body{
   margin: 20%;
  text-align: center;
 }
+ @media (max-width: 600px) {
+   .bottom-pics{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 190px;
+   }
+}
 
 /* header section styles */
