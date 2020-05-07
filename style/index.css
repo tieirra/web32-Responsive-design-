@@ -21,30 +21,42 @@ font: inherit;
 vertical-align: baseline;  
 }
 /* general styles */
+*{
+   box-sizing: border-box;
+}
 H2, h3 {  padding-bottom: 30px;
     
 }
 h2 {
-  border-bottom: 5px solid pink;
+  border-bottom: 5px solid rgb(201, 14, 14);
 }
 .Top-pic{
   margin-left: 40%;
+  margin-bottom: 10px;
+  border-radius: 20px black;
 }
-.section{
-  width: 100%;
+ .bottom-pics , p{
  display: flex;
  flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
 }
 
-H1,H2,H3,H4,p{ 
- text-align:center
-  
+ p{ 
+ margin-left: 20px;  
 }
 
-section{
-  
-  text-align:right
-   
+.bottom-pics{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.bottom-pics {
+  color: hotpink;
+  font-size: 1.6rem;
+  text-align: right;
 }
 
 section,h2,h3{
@@ -52,25 +64,13 @@ section,h2,h3{
   
 }
 body{
-   border: 4px dotted pink;
+   border: 6px dotted rgb(223, 30, 165);
 }
  footer {
   border: 5px solid rgb(199, 37, 37);
   width: 50%;
-   margin: 20%;
+  margin: 20%;
  text-align: center;
 }
 
- .parent div,.boxOne,.boxTwo,.boxThree {
-   height:30vh;
-    border: 4px solid rgb(168, 16, 16)  
-   
-}
-.parent,.boxOne,.boxTwo,.boxThree{
-   text-align: center;
-  text-decoration-line: underline;
- 
-}
-
-   
 /* header section styles */
